@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // CNAME 은 public/ 에 두어 빌드 시 dist/ 로 복사한다.
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/rest07/',
 })
